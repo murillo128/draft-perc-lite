@@ -34,6 +34,8 @@ If this document updates an RFC, specify the RFC in the "updates" attribute
   <front>
     <title abbrev="PERC-Lite">End to End Media Encryption Procedures</title>
     <author fullname="Sergio Garcia Murillo" initials="S" role="editor" surname="Garcia Murillo">
+      <organization>CoSMo Software Consulting, Pte Ltd</organization>
+    </author>
     <author fullname="Alexandre Gouaillard" initials="A" role="editor" surname="Gouaillard">
       <organization>CoSMo Software Consulting, Pte Ltd</organization>
     </author>
