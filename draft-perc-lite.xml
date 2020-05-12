@@ -34,12 +34,12 @@ If this document updates an RFC, specify the RFC in the "updates" attribute
   <front>
     <title abbrev="PERC-Lite">End to End Media Encryption Procedures</title>
     <author fullname="Sergio Garcia Murillo" initials="S" role="editor" surname="Garcia Murillo">
-      <email>sergio.garcia.murillo@cosmosoftware.io</email>
       <organization>CoSMo Software Consulting, Pte Ltd</organization>
+      <email>sergio.garcia.murillo@cosmosoftware.io</email>
     </author>
     <author fullname="Alexandre Gouaillard" initials="A" role="editor" surname="Gouaillard">
-      <email>Alex.GOUAILLARD@cosmosoftware.io</email>
       <organization>CoSMo Software Consulting, Pte Ltd</organization>
+      <email>Alex.GOUAILLARD@cosmosoftware.io</email>
     </author>
     <date  year="2020" />
     <keyword>PERC lite</keyword>
