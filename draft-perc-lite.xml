@@ -30,7 +30,7 @@ to use per the rules of RFC3978. The value (as of this template) can be:
 If this document obsoletes an RFC, specify the RFC in the "obsoletes" attribute
 If this document updates an RFC, specify the RFC in the "updates" attribute
 -->
-<rfc docName="draft-ietf-perc-lite" ipr="trust200902">
+<rfc docName="draft-murillo-perc-perc-lite-00" ipr="trust200902">
   <front>
     <title abbrev="PERC-Lite">End to End Media Encryption Procedures</title>
     <author fullname="Sergio Garcia Murillo" initials="S" role="editor" surname="Garcia Murillo">
@@ -39,7 +39,7 @@ If this document updates an RFC, specify the RFC in the "updates" attribute
     <author fullname="Alexandre Gouaillard" initials="A" role="editor" surname="Gouaillard">
       <organization>CoSMo Software Consulting, Pte Ltd</organization>
     </author>
-    <date  year="2017" />
+    <date  year="2020" />
     <area>Applications and Real-Time Area (art)</area>
     <workgroup>Privacy Enhanced RTP Conferencing (perc)</workgroup>
     <keyword>PERC lite</keyword>
@@ -67,7 +67,7 @@ If this document updates an RFC, specify the RFC in the "updates" attribute
         To date, deployment models for these multi-party media distribution devices do not enable the devices to perform their functions without having keys to decrypt the participants' media. This trust model has limitations and prevents or hampers deployment of secure RTP conferencing in a multitude of cases, including outsourcing, legal requirements on confidentiality, and utilization of virtualized servers.
       </t>
       <t>
-        This specification defines an End to End Media Encryption procedure, so the media distribution devices can perform their media disribution function but without having access to the participant media, while focusing on introducing the minimun ammount of changes on both the endpoints and the media distributor.
+        This specification defines an End to End Media Encryption procedure, so the media distribution devices can perform their media distribution function but without having access to the participant media, while focusing on introducing the minimun amount of changes on both the endpoints and the media distributor.
       </t>
      </section>
 
@@ -146,7 +146,7 @@ No other actions are required in the MD and it will be able to freely modify any
 </t>
      </section>
 
-      <section title="Procedures at the Media Reiver ">
+      <section title="Procedures at the Media Receiver ">
 <t>
 The process at the receiver is the reverse one used at the sender. Once an RTP packet has been received, the media receiver will create a new auxiliary RTP packet from the RTP packet payload, prepped the first byte of the RTP header with the default values v=2, x=0 and p=0 (0x80), and perform the SRTP decryption. If the decryption is successful, it will replace the payload of the original RTP packet with the decrypted payload of the auxiliary RTP packet.
 </t>
