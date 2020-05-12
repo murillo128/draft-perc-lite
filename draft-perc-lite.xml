@@ -30,7 +30,7 @@ to use per the rules of RFC3978. The value (as of this template) can be:
 If this document obsoletes an RFC, specify the RFC in the "obsoletes" attribute
 If this document updates an RFC, specify the RFC in the "updates" attribute
 -->
-<rfc docName="draft-murillo-perc-perc-lite-00" ipr="trust200902">
+<rfc docName="draft-murillo-perc-lite-00" ipr="trust200902">
   <front>
     <title abbrev="PERC-Lite">End to End Media Encryption Procedures</title>
     <author fullname="Sergio Garcia Murillo" initials="S" role="editor" surname="Garcia Murillo">
@@ -40,8 +40,6 @@ If this document updates an RFC, specify the RFC in the "updates" attribute
       <organization>CoSMo Software Consulting, Pte Ltd</organization>
     </author>
     <date  year="2020" />
-    <area>Applications and Real-Time Area (art)</area>
-    <workgroup>Privacy Enhanced RTP Conferencing (perc)</workgroup>
     <keyword>PERC lite</keyword>
     <keyword>E2E Media Encryption</keyword>
 <abstract>
